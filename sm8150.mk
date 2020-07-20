@@ -131,11 +131,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor
 
-# Context Hub
-PRODUCT_PACKAGES += \
-    android.hardware.contexthub@1.0-impl.generic \
-    android.hardware.contexthub@1.0-service
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
