@@ -227,6 +227,10 @@ endif
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.lge
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Media
 PRODUCT_PACKAGES += \
     libOmxVdec \
