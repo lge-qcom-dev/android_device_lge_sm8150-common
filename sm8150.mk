@@ -229,7 +229,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libc2dcolorconvert \
-    libmm-omxcore \
     libstagefright_softomx.vendor \
     libstagefrighthw
 
