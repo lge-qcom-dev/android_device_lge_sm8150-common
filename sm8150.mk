@@ -84,7 +84,6 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libsndmonitor \
     libspkrprot \
-    libtinycompress \
     libvisualizer \
     libvolumelistener \
     tinymix
@@ -155,7 +154,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     hwcomposer.qcom \
-    libdisplayconfig.qti \
     libtinyxml \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.allocator@1.0.vendor \
