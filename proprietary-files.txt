@@ -229,24 +229,16 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # CVP
-system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so
-system_ext/lib/vendor.qti.hardware.cvp@1.0.so
-system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so
-system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 vendor/lib/libcvp.so
 vendor/lib/libcvp_common.so
 vendor/lib/libcvp_stub.so
 vendor/lib/libcvpcpuRev_skel.so
-vendor/lib/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/libcvp.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_stub.so
 vendor/lib64/libcvpcpuRev_skel.so
-vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Display
-system_ext/lib/libsdm-disp-apis.qti.so
-system_ext/lib64/libsdm-disp-apis.qti.so
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/lib/libdpps.so
@@ -353,7 +345,6 @@ vendor/lib/libcpion.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libhdcpsrm.so
-vendor/lib/libmmosal.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libops.so
 vendor/lib/libqisl.so
@@ -381,7 +372,6 @@ vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libmmosal.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libops.so
 vendor/lib64/libqisl.so
@@ -598,9 +588,6 @@ vendor/lib64/libnpu.so
 vendor/lib64/libopenvx.so
 
 # Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
@@ -624,10 +611,6 @@ vendor/lib/libhta_hexagon_runtime.so
 vendor/lib64/libhexagon_nn_stub.so
 vendor/lib64/libhta_hexagon_runtime.so
 
-# NFC
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
-vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
-
 # OMX
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
@@ -644,7 +627,6 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libmulawdec.so
-vendor/lib/libomx-dtsdec.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAmrDec.so
@@ -656,7 +638,6 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libmulawdec.so
-vendor/lib64/libomx-dtsdec.so
 
 # PASR
 -vendor/app/pasrservice/pasrservice.apk
@@ -676,12 +657,6 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
-
-# Qualcomm Display Utils
-system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Qualcomm Hardware Factory
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
