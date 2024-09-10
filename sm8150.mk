@@ -284,7 +284,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libmm-omxcore \
     libstagefright_softomx.vendor \
-    libstagefrighthw
+    libstagefrighthw \
+    libvorbisidec.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
