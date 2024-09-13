@@ -249,7 +249,6 @@ system_ext/lib/libsdm-disp-apis.qti.so
 system_ext/lib64/libsdm-disp-apis.qti.so
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
--vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
 vendor/lib/libdpps.so
 vendor/lib/libhdcp1prov.so
 vendor/lib/libhdcp2p2prov.so
