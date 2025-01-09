@@ -334,8 +334,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.4-service.lge \
-    libril
+    android.hardware.radio@1.4-service.lge
 
 # Rootdir
 PRODUCT_PACKAGES += \
