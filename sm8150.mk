@@ -212,8 +212,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 # Light
+ifeq ($(findstring flashlmdd,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.lge
+    android.hardware.light-service.lineage
+endif
 
 # Livedisplay
 PRODUCT_PACKAGES += \
