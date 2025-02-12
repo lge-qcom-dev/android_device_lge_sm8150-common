@@ -173,8 +173,10 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
+ifeq ($(findstring mh2lm,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.lge
+    android.hardware.biometrics.fingerprint-service.lineage
+endif
 
 # FM packages
 PRODUCT_PACKAGES += \
