@@ -386,6 +386,9 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
