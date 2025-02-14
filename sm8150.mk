@@ -231,8 +231,7 @@ PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libmm-omxcore \
     libstagefright_softomx.vendor \
-    libstagefrighthw \
-    libvorbisidec.vendor
+    libstagefrighthw
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
