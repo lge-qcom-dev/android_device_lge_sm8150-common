@@ -1,6 +1,3 @@
-attribute hal_vssims;
-attribute hal_vssims_client;
-attribute hal_vssims_server;
 attribute hal_lgdata;
 attribute hal_lgdata_client;
 attribute hal_lgdata_server;

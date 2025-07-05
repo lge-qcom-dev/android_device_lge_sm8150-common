@@ -1,4 +1,3 @@
-vendor.lge.hardware.vss_ims::IVssIms                                    u:object_r:hal_vssims_hwservice:s0
 vendor.lge.hardware.lgdata::ILgData                                     u:object_r:hal_lgdata_hwservice:s0
 vendor.lge.hardware.lgdata::ILgDataVendorRil                            u:object_r:hal_lgdata_hwservice:s0
 vendor.lge.hardware.radio::ILgeRadio                                    u:object_r:hal_telephony_hwservice:s0
