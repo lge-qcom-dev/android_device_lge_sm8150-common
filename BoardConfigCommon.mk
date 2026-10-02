@@ -131,7 +131,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USES_ION := true
 
 # Platform
-BOARD_VENDOR := lge
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msmnile
 
@@ -141,6 +140,9 @@ TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap2wake"
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
@@ -160,7 +162,6 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 include device/lineage/sepolicy/libion/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/lge/sepolicy/SEPolicy.mk
-include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 
 # Treble
 BOARD_VNDK_VERSION := current
