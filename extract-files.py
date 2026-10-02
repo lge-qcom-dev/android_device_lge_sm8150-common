@@ -21,7 +21,6 @@ from extract_utils.main import (
 
 namespace_imports = [
     "hardware/lge",
-    "hardware/qcom-caf/common/libqti-perfd-client",
     "hardware/qcom-caf/sm8150",
     "hardware/qcom-caf/wlan",
     "vendor/qcom/opensource/commonsys/display",
