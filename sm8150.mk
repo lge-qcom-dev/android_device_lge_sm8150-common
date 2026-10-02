@@ -180,6 +180,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# IMS
+$(call inherit-product, hardware/lineage/generic-ims/ims.mk)
+
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_lge_msmnile)
 
@@ -316,7 +319,7 @@ $(call soong_config_set,lineage_recovery,bootloader_message_offset,128)
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.4-service.lge
+    android.hardware.radio-service.lge
 
 # Rootdir
 PRODUCT_PACKAGES += \
